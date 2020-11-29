@@ -36,7 +36,7 @@ Create a random `id` for the navigation bar
 ```
 
 
-###### 3. Load the `navBar` page using Javascript
+##### 3. Load the `navBar` page using Javascript
 
 Make sure the `id` in both cases match. Also include the link of your navigation bar page inside the `load()`
 
