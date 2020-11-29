@@ -1,0 +1,45 @@
+/**
+Name:       navBarStyle.css
+Purpose:    This page has all the necessary style code only for the navigation bar. 
+Author:     Tanu Nanda Prabhu
+**/
+
+
+/** Color of the navigation bar **/
+.navbar{
+    background-color: black;
+}
+
+/** Making the first option in the navbar bolder **/
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/** Adjusting the other options **/
+.navbar .nav {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/** Default color for all the options, you can also control them individually **/
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+/** Text hovering color change **/
+.navbar-inverse .navbar-brand:hover {
+    color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: red;
+}
+
+
+

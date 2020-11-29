@@ -1,0 +1,76 @@
+<!--
+Name:       navBar.html
+Purpose:    This page has all the necessary HTML code only for the navigation bar. 
+Author:     Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Nagendra's Portfolio</title>
+    
+    <!-- Used for adjusting to screen - responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Used for responsiveness - Bootstrap is used to make the website responsive -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Style sheet referencing -->
+    <link rel="stylesheet" href="CSS/navBarStyle.css">
+    
+</head>
+<body>
+    
+    <div>
+        
+        <!-- Navigation bar code -->
+        <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+
+        <!-- Seperate different sections, try not to combine everything together, use div -->
+        <div class="container">
+
+            <!-- This is for the 3 horizontal lines for responsive (Minimize the screen to see) --> 
+            <div class="navbar-header">
+
+            <!-- Three lines would be put inside a button to maintain consistency and maintain elegance -->
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+
+                <!-- This is the first option in the navigation bar -->
+                <!-- Put the page you want to navigation inside the href, make sure to end with an extension -->
+                <a href = "" class="navbar-brand">YOUR NAME</a>
+
+            </div>
+
+            <!-- Navigation bar options code -->
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+                <!-- To maintain the arrangement put all the options in an unordered list -->
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href = "">Option 2</a></li>
+                    <li><a href = "">Option 3</a></li>
+                    <li><a href = "">Option 4</a></li>
+                    <!-- To add more options just mechanically copy the above lines -->
+
+                </ul>
+
+            </nav>
+
+        </div>
+            
+        </header>
+        
+    </div>
+  
+</body>
+</html>
+
+
+<!-- Reference -->
+<!-- 1. Thanks to Sergei Mellow from Codepen.io - https://codepen.io/sergeimellow/pen/grbGmj -->
