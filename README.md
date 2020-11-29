@@ -26,7 +26,7 @@ Now this is one of the best pratices to implement. For example, it is not a good
 
 ##### 2. Place the `id` inside the `div` inside the `body` of HTML
 
-         Create a random `id` for the navigation bar
+Create a random `id` for the navigation bar
 
 ```html
 <!-- Navigation bar ---->
@@ -38,7 +38,7 @@ Now this is one of the best pratices to implement. For example, it is not a good
 
 ###### 3. Load the `navBar` page using Javascript
 
-          Make sure the `id` in both cases match. Also include the link of your navigation bar page inside the `load()`
+Make sure the `id` in both cases match. Also include the link of your navigation bar page inside the `load()`
 
 ```Javascript
 $(function(){
