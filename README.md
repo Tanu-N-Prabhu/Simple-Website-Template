@@ -14,5 +14,39 @@ The answer is pretty trivial, use Bootstrap. This is why bootstrap is used, to c
 
 Now this is one of the best pratices to implement. For example, it is not a good idea to put the same chunk of navigation bar or fotter in every single page. Suppose if you want to change a particular option name or fix the typo, then image the number or times you need to reciprocate your code. Rather why not use NanBar inheritance. This means in simple words, write the code once and use it in many pages. Once you update a single option in the main page, then automatically every page would be updated.
 
+1. For this we need to use `JQuery` library
+
+
+
+```html
+<!-- Used for inheriting -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+```
+
+
+2. Place the `id` inside the `div` inside the `body` of HTML
+
+Create a random `id` for the navigation bar
+
+```html
+<!-- Navigation bar ---->
+<!-- Inheriting the navbar from header.html-->
+<div id = "nav-placeholder"></div>          
+<!-- Make sure you place it in a div tag -->
+```
+
+
+3. Load the `navBar` page using Javascript
+
+Make sure the `id` in both cases match. Also include the link of your navigation bar page inside the `load()`
+
+```Javascript
+$(function(){
+    $("#nav-placeholder").load("navBar.html");
+    });
+```
+
+
+> <b>Note</b>: Make sure you add all the necessary navigation bar code in a sperate file called `navBar.html` and its CSS file as `navBarStyle.css`
 
 
