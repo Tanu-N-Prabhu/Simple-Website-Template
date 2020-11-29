@@ -1,7 +1,5 @@
 # Simple-Website-Templates
 
-
-
 ## Simple Responsive Navigation bar
 
 While designing a navigation bar, no matter what you do and why you do, but please try to make it responsive. Because not all users will open your website on Laptops or computer but there are some users who prefer small acpect ratio devices too. So always make you navigation responsive. 
@@ -47,6 +45,19 @@ $(function(){
 ```
 
 
-> <b>Note</b>: Make sure you add all the necessary navigation bar code in a sperate file called `navBar.html` and its CSS file as `navBarStyle.css`
+> <b>Note</b>: Make sure you add all the necessary navigation bar code in a sperate file called `navBar.html` and its CSS file as `navBarStyle.css`. Now you can put the above in any of the HTML pages to get the navigation bar.
+
+
+### Result
+
+Executed on my Laptop - HP Elitebook
+
+<img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Templates/blob/main/Img/nav1.PNG">
+
+Executed on the emulator - iPhone X
+
+<img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Templates/blob/main/Img/nav2.PNG">
+
+
 
 
