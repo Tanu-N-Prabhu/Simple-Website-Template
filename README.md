@@ -1,4 +1,4 @@
-# Simple-Website-Templates
+# Simple-Website-Template
 
 ## Simple Responsive Navigation bar
 
