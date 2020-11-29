@@ -14,7 +14,7 @@ The answer is pretty trivial, use Bootstrap. This is why bootstrap is used, to c
 
 Now this is one of the best pratices to implement. For example, it is not a good idea to put the same chunk of navigation bar or fotter in every single page. Suppose if you want to change a particular option name or fix the typo, then image the number or times you need to reciprocate your code. Rather why not use NanBar inheritance. This means in simple words, write the code once and use it in many pages. Once you update a single option in the main page, then automatically every page would be updated.
 
-1. For this we need to use `JQuery` library
+##### 1. For this we need to use `JQuery` library
 
 
 
@@ -24,9 +24,9 @@ Now this is one of the best pratices to implement. For example, it is not a good
 ```
 
 
-2. Place the `id` inside the `div` inside the `body` of HTML
+##### 2. Place the `id` inside the `div` inside the `body` of HTML
 
-Create a random `id` for the navigation bar
+         Create a random `id` for the navigation bar
 
 ```html
 <!-- Navigation bar ---->
@@ -36,9 +36,9 @@ Create a random `id` for the navigation bar
 ```
 
 
-3. Load the `navBar` page using Javascript
+###### 3. Load the `navBar` page using Javascript
 
-Make sure the `id` in both cases match. Also include the link of your navigation bar page inside the `load()`
+          Make sure the `id` in both cases match. Also include the link of your navigation bar page inside the `load()`
 
 ```Javascript
 $(function(){
