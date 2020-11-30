@@ -1,4 +1,8 @@
-# Simple-Website-Template
+<h1 align = "center">Simple-Website-Template</h1>
+
+<p align = "center">
+<img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Template/blob/main/Img/webdevelpoment.jpg">
+</p>
 
 ## Objective
 
