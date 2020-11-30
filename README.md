@@ -1,5 +1,12 @@
 # Simple-Website-Template
 
+## Objective
+
+<p align = "justify">In this repository, you learn to develop a static website from scratch. There is a bonus at the end of this tutorial, which is you will understand the essence of <b>GitHub Pages</b> and its free hosting capability. By completing this tutorial you will be having a fully functional website template deployed on the internet. You can further extend this template to build a portfolio for your self, friends/family or anybody who is in need of a portfolio.</p>
+
+> Prior to this tutorial, one must have <b>minimal understanding</b> on HTML, CSS, Bootstrap and JavaScript. 
+
+
 ## Simple Responsive Navigation bar
 
 While designing a navigation bar, no matter what you do and why you do, but please try to make it responsive. Because not all users will open your website on Laptops or computer but there are some users who prefer small acpect ratio devices too. So always make you navigation responsive. 
