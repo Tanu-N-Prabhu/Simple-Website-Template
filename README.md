@@ -6,7 +6,7 @@
 
 ## Objective
 
-<p align = "justify">In this repository, you learn to develop a static website from scratch. There is a bonus at the end of this tutorial, which is you will understand the essence of <b>GitHub Pages</b> and its free hosting capability. By completing this tutorial you will be having a fully functional website template deployed on the internet. You can further extend this template to build a portfolio for your self, friends/family or anybody who is in need of a portfolio.</p>
+<p align = "justify">In this repository, you learn to develop a static website from scratch. There is a bonus at the end of this tutorial, which is you will understand the essence of GitHub Pages and its free hosting capability. By completing this tutorial, you will have a fully functional website template deployed on the internet. You can further extend this template to build a portfolio for yourself, friends/family, or anybody needs a portfolio.</p>
 
 > Prior to this tutorial, one must have <b>minimal understanding</b> on HTML, CSS, Bootstrap and JavaScript. 
 
@@ -21,8 +21,7 @@ The answer is pretty trivial, use Bootstrap. This is why bootstrap is used, to c
 
 #### Navbar Inheritance
 
-Now this is one of the best pratices to implement. For example, it is not a good idea to put the same chunk of navigation bar or fotter in every single page. Suppose if you want to change a particular option name or fix the typo, then image the number or times you need to reciprocate your code. Rather why not use NanBar inheritance. This means in simple words, write the code once and use it in many pages. Once you update a single option in the main page, then automatically every page would be updated.
-
+Now this is one of the best practices to implement. For example, it is not a good idea to put the same chunk of navigation bar or footer in every single page. Suppose if you want to change a particular option name or fix the typo, then image the number or times you need to reciprocate your code. Rather, why not use Navbar inheritance. This means in simple words, write the code once and use it in many pages. Once you update a single option in the main page, then automatically every page would be updated.
 ##### 1. For this we need to use `JQuery` library
 
 
