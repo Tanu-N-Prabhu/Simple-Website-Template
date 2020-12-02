@@ -1,7 +1,7 @@
 <h1 align = "center">Simple-Website-Template</h1>
 
 <p align = "center">
-<img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Template/blob/main/Img/webdevelpoment.jpg">
+<img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Template/blob/main/Img/web-design-background_1300-39.jpg">
 </p>
 
 ## Objective
