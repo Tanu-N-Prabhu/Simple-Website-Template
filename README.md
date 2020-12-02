@@ -11,6 +11,16 @@
 > Prior to this tutorial, one must have <b>minimal understanding</b> on HTML, CSS, Bootstrap and JavaScript. 
 
 
+# Steps to successfully build a functional website
+
+Below are the steps to build a complete functional website.
+
+1. Create both header (Navigation Bar) and footer using Inheritance (Jquery).
+2. Create a <b>"Home"</b> page and other options page as needed.
+3. ....
+
+
+
 ## Simple Responsive Navigation bar
 
 While designing a navigation bar, no matter what you do and why you do, but please try to make it responsive. Because not all users will open your website on Laptops or computer but there are some users who prefer small acpect ratio devices too. So always make you navigation responsive. 
