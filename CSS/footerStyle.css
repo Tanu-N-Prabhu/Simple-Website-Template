@@ -1,0 +1,26 @@
+/**
+Name:       footerStyle.css
+Purpose:    This page has all the necessary style code only for the footer. 
+Author:     Tanu Nanda Prabhu
+**/
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+    
+}
+
+.text-muted{
+    color: white;
+}
+
+.footer-name{
+    color: white;
+    font-style: italic;
+}
