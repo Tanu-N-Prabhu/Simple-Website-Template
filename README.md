@@ -44,7 +44,7 @@ The answer is pretty trivial, use Bootstrap. This is why bootstrap is used, to c
 
 ##### 2. Place the `id` inside the `div` inside the `body` of HTML
 
-Create a random `id` for the navigation bar
+Create a random `id` for the navigation bar and footer
 
 ```html
 <!-- Navigation bar ---->
@@ -68,7 +68,7 @@ $(function(){
 > <b>Note</b>: Make sure you add all the necessary navigation bar code in a sperate file called `navBar.html` and its CSS file as `navBarStyle.css`. Now you can put the above in any of the HTML pages to get the navigation bar.
 
 
-### Result
+### Navigation bar 
 
 Executed on my Laptop - HP Elitebook
 
@@ -78,6 +78,10 @@ Executed on the emulator - iPhone X
 
 <img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Templates/blob/main/Img/nav2.PNG">
 
+### Footer 
 
+Executed on my Laptop - HP Elitebook
+
+<img src = "https://github.com/Tanu-N-Prabhu/Simple-Website-Templates/blob/main/Img/footer.PNG">
 
 
